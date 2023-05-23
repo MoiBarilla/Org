@@ -1,0 +1,27 @@
+.team {
+    background: #d9f7e9;
+    box-sizing: border-box;
+    font-size: 32px;
+    padding: 32px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.input-color {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+.team h3 {
+    border-bottom: 4px solid #57c278;
+    color: #212121;
+    display: inline-block;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
