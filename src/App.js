@@ -138,7 +138,7 @@ function App() {
 
   const addCategory = (newCategory) => {
     console.log("create category", newCategory);
-    setCategory([... category, {...newCategory, id: uuid() } ]);
+    setCategory([...category, {...newCategory, id: uuid() } ]);
   }
 
   // Delete Colaborador

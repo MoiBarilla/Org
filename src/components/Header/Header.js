@@ -1,8 +1,10 @@
-import "./Header.css"
+import "./Header.css";
+import header from "../../img/header.png";
+
 
 function Header() {
     return <header className="header">
-    <img src="/img/header.png" alt="Org"/>
+    <img src={ header } alt="Org"/>
 
     </header>
 }
