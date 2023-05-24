@@ -1,8 +1,8 @@
 .MyOrg {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    position: relative;
     width: 100%; 
 }
 
@@ -17,7 +17,7 @@
 .MyOrg img {
     cursor: pointer;
     height: 100px;
-    position: absolute;
+    margin-left: 25px;
     right: 15%;
     width: 100px;
 }
